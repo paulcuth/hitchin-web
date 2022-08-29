@@ -22,15 +22,17 @@ const Home: NextPage = () => {
 
         <section className={styles.detail}>
           <p className={styles.interests}>
-            Front-end, back-end, UX, design, accessibility, anything Web.
+            Front-end, back-end, UX, design, accessibility, and more.
           </p>
 
           <p className={styles.event}>
-            Join our first social event on 1 September 2022, 7pm @ The Vic.
+            {/* Join our first social event on 1 September 2022, 7pm @ The Vic. */}
+            Coming soon.
           </p>
 
           <p className={styles.description}>
-            A friendly monthly meetup of Web folk in Hitchin. See{" "}
+            A friendly, informal monthly meetup for anyone with an interest in
+            the being creative with the Web. See{" "}
             <a href="https://twitter.com/hitchin_web">
               @hitchin_web on Twitter
             </a>{" "}
