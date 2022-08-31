@@ -1,4 +1,4 @@
-import type { NextPage, GetServerSidePropsResult } from "next";
+import type { NextPage, GetStaticProps } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
@@ -7,7 +7,7 @@ import styles from "../styles/Home.module.css";
   Server-side
  ******************************************************************************/
 
-export const getServerSideProps: GetServerSidePropsResult<{}> = () => {
+export const getStaticProps: GetStaticProps = async () => {
   return {
     props: {},
   };
