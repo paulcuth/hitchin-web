@@ -1,29 +1,38 @@
-import type { NextPage } from "next";
+import type { NextPage, GetServerSidePropsResult } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
+
+/*******************************************************************************
+  Server-side
+ ******************************************************************************/
+
+export const getServerSideProps: GetServerSidePropsResult<{}> = () => {
+  return {
+    props: {},
+  };
+};
+
+/*******************************************************************************
+  Page
+ ******************************************************************************/
 
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
         <title>
-          Hitchin Web - A friendly, informal meetup of Web folk in Hitchin.
+          Hitchin Web :: A friendly, informal meetup of Web folk in Hitchin.
         </title>
         <meta
           name="description"
-          content="Meetup group for any Hitchin folk who create for the Web."
-        />
-        <meta property="og:title" content="Hitchin Web" />
-        <meta property="og:site_name" content="Hitchin Web" />
-        <meta property="og:url" content="https://hitchin-web.org/" />
-        <meta
-          property="og:description"
           content="A friendly, informal meetup of Web folk in Hitchin."
         />
+        <meta property="og:site_name" content="Hitchin Web" />
         <meta property="og:type" content="article" />
         <meta property="og:image" content="https://hitchin-web.org/logo.png" />
         <meta property="og:locale" content="en_GB" />
+
         <link rel="icon" href="/favicon.png" />
       </Head>
 
@@ -52,7 +61,7 @@ const Home: NextPage = () => {
           </p>
 
           <p className={styles.description}>
-            For latest information and to get in touch, check out{" "}
+            For latest information or to get in touch, check out{" "}
             <a href="https://twitter.com/hitchin_web">
               @hitchin_web on Twitter
             </a>
