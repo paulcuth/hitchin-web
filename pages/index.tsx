@@ -25,14 +25,20 @@ const Home: NextPage = () => {
             Front-end, back-end, UX, design, accessibility, and more.
           </p>
 
-          <p className={styles.event}>
-            {/* Join our first social event on 1 September 2022, 7pm @ The Vic. */}
-            Coming soon.
+          <p className={styles.description}>
+            A friendly, informal monthly meetup for anyone with an interest in
+            the being creative with the Web.
+          </p>
+
+          <p className={styles.eventInfo}>
+            <strong>7pm</strong> onwards @{" "}
+            <strong>The Cooper&apos;s Arms</strong>, 81 Tilehouse Street.
+            <br />
+            <strong>21 September</strong> & <strong>19 October 2022</strong>.
           </p>
 
           <p className={styles.description}>
-            A friendly, informal monthly meetup for anyone with an interest in
-            the being creative with the Web. See{" "}
+            See{" "}
             <a href="https://twitter.com/hitchin_web">
               @hitchin_web on Twitter
             </a>{" "}
