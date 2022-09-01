@@ -43,7 +43,7 @@ const Home: NextPage = () => {
 
         <section className={styles.detail}>
           <p className={styles.description}>
-            A friendly, informal meetup for anyone with an interest in the being
+            A friendly, informal meetup for anyone with an interest in being
             creative with the Web.
           </p>
 
@@ -62,10 +62,8 @@ const Home: NextPage = () => {
 
           <p className={styles.description}>
             For latest information or to get in touch, check out{" "}
-            <a href="https://twitter.com/hitchin_web">
-              @hitchin_web on Twitter
-            </a>
-            .
+            <strong>@hitchin_web</strong> on Twitter or visit{" "}
+            <strong>hitchin-web.org</strong>.
           </p>
         </section>
       </main>

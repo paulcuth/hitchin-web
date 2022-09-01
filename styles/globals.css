@@ -7,6 +7,8 @@ html,
 body {
   --foreground-color: var(--palette-pink);
   --background-color: var(--palette-yellow);
+  /* --foreground-color: var(--palette-yellow);
+  --background-color: var(--palette-pink); */
   padding: 0;
   margin: 0;
   font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen,
