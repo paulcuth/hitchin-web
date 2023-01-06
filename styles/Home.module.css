@@ -45,5 +45,6 @@
   color: var(--background-color);
   padding: 1px 4px;
   text-decoration: none;
+  text-shadow: 0 0 2px rgba(255,255,255,1);
 }
 

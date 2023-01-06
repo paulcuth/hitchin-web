@@ -43,27 +43,23 @@ const Home: NextPage = () => {
 
         <section className={styles.detail}>
           <p className={styles.description}>
-            A friendly, informal meetup for anyone with an interest in being
-            creative with the Web.
-          </p>
-
-          <p className={styles.interests}>
-            Front-end, back-end, design, UX, accessibility & more.
+            Bringing together folk that build things for the Web, including (but
+            not limited to) front-end, back-end, design, UX, accessibility.
+            Whether you work with the Web professionally, you&apos;re a
+            hobbyist, or just starting out, this is for everyone.
           </p>
 
           <p className={styles.eventInfo}>
-            <strong>7pm</strong> onwards @{" "}
-            <strong>The&nbsp;Cooper&apos;s&nbsp;Arms</strong>,
-            81&nbsp;Tilehouse&nbsp;Street.
-            <br />
-            <strong>21&nbsp;September</strong> &{" "}
-            <strong>19&nbsp;October</strong> 2022.
+            We meet up on the <strong>3rd Wednesday of every month</strong> at
+            various venues in Hitchin. Check out our group on{" "}
+            <a href="https://www.meetup.com/hitchin-web">Meetup</a> to find out
+            where we&apos;ll be next.
           </p>
 
           <p className={styles.description}>
-            For latest information or to get in touch, check out{" "}
-            <a href="https://twitter.com/hitchin_web">@hitchin_web</a> on
-            Twitter.
+            <a href="https://www.meetup.com/hitchin-web">Meetup</a> /{" "}
+            <a href="https://toot.community/@hitchinweb">Mastodon</a> /{" "}
+            <a href="https://twitter.com/hitchin_web">Twitter</a>
           </p>
         </section>
       </main>
