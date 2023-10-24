@@ -50,16 +50,15 @@ const Home: NextPage = () => {
           </p>
 
           <p className={styles.eventInfo}>
-            We meet up on the <strong>3rd Wednesday of every month</strong> at
-            various venues in Hitchin. Check out our group on{" "}
+            We hold <strong>code nights on the 2nd Wednesday</strong>, and <strong>social nights on the 4th Wednesday</strong> of every month. We go to various venues in Hitchin, so follow us on{" "}
             <a href="https://www.meetup.com/hitchin-web">Meetup</a> to find out
-            where we&apos;ll be next.
+            where we&apos;ll be next!
           </p>
 
           <p className={styles.description}>
             <a href="https://www.meetup.com/hitchin-web">Meetup</a> /{" "}
             <a href="https://toot.community/@hitchinweb">Mastodon</a> /{" "}
-            <a href="https://twitter.com/hitchin_web">Twitter</a>
+            <a href="https://twitter.com/hitchin_web">Xwitter</a>
           </p>
         </section>
       </main>
