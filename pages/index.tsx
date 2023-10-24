@@ -56,9 +56,9 @@ const Home: NextPage = () => {
           </p>
 
           <p className={styles.description}>
-            <a href="https://www.meetup.com/hitchin-web">Meetup</a> /{" "}
-            <a href="https://toot.community/@hitchinweb">Mastodon</a> /{" "}
-            <a href="https://twitter.com/hitchin_web">Xwitter</a>
+            <a rel="me" href="https://www.meetup.com/hitchin-web">Meetup</a> /{" "}
+            <a rel="me" href="https://toot.community/@hitchinweb">Mastodon</a> /{" "}
+            <a rel="me" href="https://twitter.com/hitchin_web">Xwitter</a>
           </p>
         </section>
       </main>
